@@ -16,7 +16,7 @@ public class EmployeeService {
     @Autowired
     EmployeeRepository employeeRepository;
 
-    public List<Employee> getEmployees() {
+    public List<Employee> getAllEmployees() {
 
         try{
             List<EmployeeEntity> employees = employeeRepository.findAll();
